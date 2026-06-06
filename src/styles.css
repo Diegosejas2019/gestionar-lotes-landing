@@ -1,4 +1,6 @@
 :root {
+  color-scheme: dark;
+
   /* Marca / superficies */
   --bg:           #0f1117;
   --bg-deep:      #0a0c12;
@@ -588,6 +590,10 @@ img, svg { display: block; max-width: 100%; }
   padding: 12px 14px;
   color: var(--text-bright);
   font-size: 14px;
+}
+.field select option {
+  color: #1a1d27;
+  background: #ffffff;
 }
 .field input::placeholder, .field textarea::placeholder { color: var(--muted-2); }
 .field input:focus, .field select:focus, .field textarea:focus {
